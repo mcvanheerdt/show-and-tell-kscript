@@ -20,8 +20,6 @@ import kotlin.system.exitProcess
 
 val logger: Logger = LoggerFactory.getLogger("converting-script")
 
-logger.info("Started")
-
 if(args.size != 5) {
     logger.error("""
     Converts images in the specified directory using the provided target resolution and format.

@@ -1,8 +1,8 @@
 #!/usr/bin/env kotlin
 
 @file:Repository("https://dl.bintray.com/jakubriegel/kotlin-shell")
-@file:DependsOn("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
 @file:DependsOn("eu.jrie.jetbrains:kotlin-shell-core:0.2.1")
+@file:DependsOn("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
 @file:DependsOn("org.slf4j:slf4j-simple:1.7.30")
 
 @file:Suppress("EXPERIMENTAL_API_USAGE")

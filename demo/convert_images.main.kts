@@ -21,7 +21,8 @@ import kotlin.system.exitProcess
 val logger: Logger = LoggerFactory.getLogger("converting-script")
 
 if(args.size != 5) {
-    logger.error("""
+    logger.error(
+            """
     Converts images in the specified directory using the provided target resolution and format.
     Usage: convert_images.main.kts [arguments]
 
@@ -33,9 +34,10 @@ if(args.size != 5) {
     4|      the target image format (e.g. png)
     
     Example:
-    convert_images.main.kts ./images 600 600 png
+    convert_images.main.kts ./images ./output 600 600 png
     
-    """.trimIndent())
+    """.trimIndent()
+    )
     exitProcess(1)
 }
 
